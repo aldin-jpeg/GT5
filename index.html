@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GT5 Accessories</title>
+  <link rel="icon" type="image/png" href="logo2.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+   body {
+    background-color: #0a0a0a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .hero {
+    background: url("logo.jpg") no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: below;
+    justify-content: center;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  .product-card {
+    background-color: #111;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+  }
+
+  .work-img {
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .work-img:hover {
+    transform: scale(1.05);
+  }
+
+  footer {
+    background-color: #000;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .highlight {
+    color: #FFFFFF;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="bg-black text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+     <h1 class="text-3xl font-bold text-red-600">GT5 <span class="text-white">Automotive</span></h1>
+    <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#products" class="hover:text-yellow-400">Products</a></li>
+          <li><a href="#gallery" class="hover:text-yellow-400">Our Works</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="overlay text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">GT5 ACCESSORIES , 
+      STICKER WORKS & LASER CUTTING
+      </h2>
+      <p class="text-lg mb-4">Premium Car Accessories | Style. Power. Precision.</p>
+      <a href="#products" class="bg-red-600 hover:bg-yellow-500 text-white px-6 py-3 rounded-lg font-semibold">Explore Products</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16 px-6 bg-[#111]">
+    <h2 class="section-title">About GT5</h2>
+    <p class="max-w-3xl mx-auto text-center text-gray-300">
+      GT5 Automotive is your one-stop destination for premium car accessories that redefine your driving experience. 
+      From performance parts to stylish interiors, we bring engineering excellence and visual appeal together. 
+      Visit our store to explore, experience, and buy the best automotive upgrades. Call : +91 9746884694 for more details.
+    </p>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="py-16 px-6 bg-[#0a0a0a]">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+
+      <div class="product-card">
+        <img src="daps.jpg" class="mx-auto mb-4 rounded-lg" alt="Stereo">
+        <h3 class="text-lg font-semibold">Daps T5 Stereo</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+
+      <div class="product-card">
+        <img src="microdigit.jpg" class="mx-auto mb-4 rounded-lg" alt="Seats">
+        <h3 class="text-lg font-semibold">Microdigit DashCam</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+
+      <div class="product-card">
+        <img src="JBU.jpg" class="mx-auto mb-4 rounded-lg" alt="Brakes">
+        <h3 class="text-lg font-semibold">JBU Speaker</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+
+      <div class="product-card">
+        <img src="speaker 1.jpg" class="mx-auto mb-4 rounded-lg" alt="Brakes">
+        <h3 class="text-lg font-semibold">6.5inch Speaker</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+
+      <div class="product-card">
+        <img src="momo.jpg" class="mx-auto mb-4 rounded-lg" alt="Exhaust">
+        <h3 class="text-lg font-semibold">Momo Gear Knob</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+
+      <div class="product-card">
+        <img src="horn 1.jpg" class="mx-auto mb-4 rounded-lg" alt="Exhaust">
+        <h3 class="text-lg font-semibold">Horn</h3>
+        <p class="text-yellow-400 font-bold mt-2"></p>
+        <p class="text-gray-400 text-sm mt-1">Available in-store only</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY / WORKS -->
+  <section id="gallery" class="py-16 px-6 bg-[#111]">
+    <h2 class="section-title">Our Works</h2>
+    <p class="text-center text-gray-300 mb-8">Check out some of our latest works and products.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <img src="aprillia.png" class="work-img w-full h-60 object-cover" alt="">
+      <img src="compass.png" class="work-img w-full h-60 object-cover" alt="">
+      <img src="rx 100.png" class="work-img w-full h-60 object-cover" alt="">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 px-6 bg-black">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="text-center text-gray-300">
+      <p> GT5 Automotive, Nottamala , Palakkad</p>
+      <p> +91 9746884694</p>
+      <p> Mon - Sat: 9:00 AM - 7:00 PM</p>
+      <p> info@gt5automotive.com</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 <span class="highlight">GT5 Automotive</span>. All Rights Reserved.</p>
+  </footer>
+  
+  </script>
+</body>
+</html><script><script>
+    // Optional JS for smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });</script>
